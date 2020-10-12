@@ -34,7 +34,6 @@ header {
     width: 100%;
     position: absolute;
     padding: 20px;
-    top: 30px;
     background: rgba(0, 133, 255, 0.76);
 }
 
@@ -63,6 +62,12 @@ header .container {
     border-radius: 10px;
     border: none;
     color: white;
+    font-weight: 600;
+}
+.hero-btn{
+    margin-top: 25px;
+    transform: translateX(548px);
+    font-weight: 600;
 }
 
 #hero {
@@ -87,7 +92,7 @@ header .container {
     font-size: 50px;
     color: #00f0ff;
     font-weight: bold;
-    padding-bottom: 74px;
+    padding-bottom: 42px;
 }
 
 .sub-title {
@@ -316,19 +321,7 @@ button {
     color: #000000;
     position: relative;
     padding: 120px 66px 36px;
-
-
 }
-
-
-/*.horizontal-line {*/
-/*    width: 572px;*/
-/*    border: 4px solid #2D9CDB;*/
-/*    bottom: 49px;*/
-/*    right: -97px;*/
-/*    position: absolute;*/
-/*}*/
-
 
 .owner-info-details:before {
     content: "";
@@ -340,25 +333,17 @@ button {
     position: absolute;
     border-bottom: 4px solid #2D9CDB;
 }
-
 .wrap-wrap {
     display: flex;
     margin-bottom: 43px;
     padding-top: 140px;
-
 }
-
 .wrap-wrap1 {
     display: flex;
     justify-content: flex-end;
     padding-top: 92px;
-
 }
 
-/*.wrap-wrap1 .owner-company1{*/
-/*    display: flex;*/
-/*    */
-/*}*/
 .owner-company1 {
     width: 451px;
     height: 313px;
@@ -366,19 +351,14 @@ button {
     border: 12px solid #2D9CDB;
     position: relative;
     padding-bottom: 38px;
-
-
 }
-
 .owner-company1 img {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     padding-top: 38px;
-
 }
-
 .wrap-wrap1 .owner-info-details:before {
     content: "";
     display: block;
@@ -392,11 +372,85 @@ button {
 
 /*для кого этот бутк*/
 .bootcamp {
-    background: url(../images/bgbg.png) no-repeat center/cover;
+    background: rgb(3, 60, 247);
     height: 130vh;
     z-index: 1;
+    position: relative;
 }
+.particle-network-animation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100vh;
 
+  
+  &::before {
+    z-index: -2;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.2;
+  }
+}
+.glow {
+  z-index: -1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-image: radial-gradient(circle closest-side, rgba(255, 255, 255, 0.025), transparent);
+}
+$duration: 25s;
+.glow-1 {
+  width: 150vw;
+  height: 150vh;
+  margin-top: -75vh;
+  margin-left: -75vw;
+  animation: glow-1-move $duration linear infinite both;
+}
+@keyframes glow-1-move {
+  from {
+    transform: translate(-100%, 100%);
+  }
+  to {
+    transform: translate(100%, -100%);
+  }
+}
+.glow-2 {
+  width: 100vw;
+  height: 100vh;
+  margin-top: -50vh;
+  margin-left: -50vw;
+  animation: glow-2-move $duration linear $duration / 3 infinite both;
+}
+@keyframes glow-2-move {
+  from {
+    transform: translate(-100%, 0%);
+  }
+  to {
+    transform: translate(100%, 100%);
+  }
+}
+.glow-3 {
+  width: 120vw;
+  height: 120vh;
+  margin-top: -60vh;
+  margin-left: -60vw;
+  animation: glow-3-move $duration linear $duration / 3 * 2 infinite both;
+}
+@keyframes glow-3-move {
+  from {
+    transform: translate(100%, 100%);
+  }
+  to {
+    transform: translate(0%, -100%);
+  }
+}
 .col-12 {
     width: 100%;
     margin-left: -156px;
@@ -413,7 +467,7 @@ button {
     font-size: 50px;
     line-height: 57px;
     text-align: center;
-    color: #030E94;
+    color: #ffffff;
     justify-content: center;
 }
 
@@ -444,17 +498,18 @@ button {
     font-weight: 500;
     font-size: 33px;
     line-height: 38px;
-    color: #030A6A;
+    color: #ffffff;
 }
 
 .text-title {
     padding-top: 22px;
     font-size: 20px;
     line-height: 23px;
+    color: rgb(189, 181, 172);
 }
 
 .subject h2 {
-    color: #030A6A;
+    color: #ffffff;
 }
 .box-title{
     display: flex;
