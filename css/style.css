@@ -25,7 +25,7 @@ a {
 
 
 .row {
-    padding-top: 67px;
+    padding-top: 37px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -53,6 +53,10 @@ header .container {
     font-size: 21px;
     margin-left: 58px;
     color: white;
+    transition: .6s;
+}
+.top-menu-item:hover{
+    color: #333;
 }
 
 .header-link {
@@ -63,6 +67,10 @@ header .container {
     border: none;
     color: white;
     font-weight: 600;
+    transition: .6s;
+}
+.header-link:hover{
+    color: #333;
 }
 .hero-btn{
     margin-top: 25px;
@@ -89,21 +97,21 @@ header .container {
 }
 
 .title {
-    font-size: 50px;
+    font-size: 40px;
     color: #00f0ff;
     font-weight: bold;
     padding-bottom: 42px;
 }
 
 .sub-title {
-    font-size: 36px;
+    font-size: 30px;
     color: #fff;
     font-weight: bold;
     padding-bottom: 61px;
 }
 
 .sub-title-subtitle {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -373,9 +381,9 @@ button {
 /*для кого этот бутк*/
 .bootcamp {
     background: rgb(3, 60, 247);
-    height: 130vh;
     z-index: 1;
     position: relative;
+    padding-bottom: 50px;
 }
 .particle-network-animation {
     position: absolute;
@@ -412,7 +420,8 @@ $duration: 25s;
   height: 150vh;
   margin-top: -75vh;
   margin-left: -75vw;
-  animation: glow-1-move $duration linear infinite both;
+  animation: glow-1-move;
+  $duration: linear infinite both;
 }
 @keyframes glow-1-move {
   from {
@@ -427,7 +436,9 @@ $duration: 25s;
   height: 100vh;
   margin-top: -50vh;
   margin-left: -50vw;
-  animation: glow-2-move $duration linear $duration / 3 infinite both;
+  animation: glow-2-move;
+    $duration:linear;
+    $duration / 3 infinite both;
 }
 @keyframes glow-2-move {
   from {
@@ -463,7 +474,7 @@ $duration: 25s;
 }
 
 .caption {
-    padding-top: 29px;
+    padding-top: 67px;
     font-weight: bold;
     font-size: 50px;
     line-height: 57px;
@@ -506,7 +517,7 @@ $duration: 25s;
     padding-top: 22px;
     font-size: 20px;
     line-height: 23px;
-    color: rgb(189, 181, 172);
+    color: rgb(204 204 204);
 }
 
 .subject h2 {
@@ -591,18 +602,14 @@ $duration: 25s;
 
 .second-cv-item ul {
     margin-top: 20px;
+    
 }
 
 .cv-item ul {
     font-size: 18px;
     line-height: 25px;
-    color: #000000;
+    color: #012150;
     list-style: none;
-
-}
-
-.cv-item li {
-    padding-left: 5px;
 }
 
 .cv-item-title {
@@ -677,6 +684,13 @@ $duration: 25s;
 .developer-icon {
     position: absolute;
     transform: translate(30%, 56%);
+}
+.cv-li-title svg{
+    margin-right: 20px;
+}
+.cv-li-title{
+    display: flex;
+    align-items: center;
 }
 
 
