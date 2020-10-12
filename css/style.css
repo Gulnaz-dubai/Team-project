@@ -238,7 +238,7 @@ button {
 }
 
 .title-content {
-    font-size: 36px;
+    font-size: 32px;
     line-height: 41px;
     color: #030A6A;
     padding-bottom: 24px;
@@ -772,37 +772,22 @@ $duration: 25s;
     padding: 0 15px;
 }
 
-/*SECTION CONTACTS*/
-.contacts {
-    padding: 54px 0 153px;
+/*SECTION registration*/
+.registration{
+    padding: 54px 0 75px;
 }
 
-.contacts-title {
+.registration-title {
     font-weight: bold;
     font-size: 50px;
     line-height: 57px;
     text-align: center;
     color: #00A3FF;
+    padding-bottom: 54px;
 }
 
-.forms {
-    margin-top: 40px;
-}
 
-/* added to global styles */
-.has-error.form-control {
-    color: #9f005b;
-    border-color: #9f005b;
-    box-shadow: inset 0 0 0 1px #9f005b;
-}
 
-.has-error.form-control:focus {
-    box-shadow: inset 0 0 0 2px #9f005b;
-}
-
-#phone-number-country {
-    color: #000;
-}
 
 .box {
     margin: 10px auto;
@@ -813,15 +798,18 @@ $duration: 25s;
     border: 2px solid rgba(0, 194, 255, 0.51);
     position: relative;
     margin-bottom: 70px;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .box-text-inputs {
     display: flex;
     flex-direction: column;
     width: 500px;
-    margin: 70px 50px 30px;
+    margin: 31px 50px 30px;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 35px;
+    color: white;
+
 }
 
 .check-box {
@@ -830,6 +818,9 @@ $duration: 25s;
 
 .form-label {
     font-size: 9px;
+    color: #0368ec;
+    text-align: center;
+
 }
 
 .btn {
@@ -842,14 +833,20 @@ $duration: 25s;
     border-radius: 5px;
     transform: translateX(200px);
     margin-top: 20px;
+
 }
-.input-list, .mobile{
+.btn:hover{
+    color: #c3c3c3;
+}
+.input-list, .mobile {
     padding: 10px;
+    border: none;
+    border-radius: 10px;
 }
 
 
 .box-checkbox-inputs {
-    margin: 27px 50px 0px;
+    margin: 27px 50px 0;
 }
 footer{
     background: #00A3FF;
