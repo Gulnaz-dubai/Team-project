@@ -195,7 +195,7 @@ button {
 
 .col-icons {
     position: absolute;
-    top: -64px;
+    top: -38px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -386,11 +386,12 @@ button {
     padding-bottom: 50px;
 }
 .particle-network-animation {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+}
 
   
   &::before {
@@ -527,7 +528,6 @@ $duration: 25s;
     margin-top: 36px;
     margin-left: 220px;
 }
-
 
 /*SECTION ABOUT CV*/
 
