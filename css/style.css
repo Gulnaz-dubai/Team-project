@@ -34,7 +34,6 @@ header {
     width: 100%;
     position: absolute;
     padding: 20px;
-    top: 30px;
     background: rgba(0, 133, 255, 0.76);
 }
 
@@ -63,6 +62,12 @@ header .container {
     border-radius: 10px;
     border: none;
     color: white;
+    font-weight: 600;
+}
+.hero-btn{
+    margin-top: 25px;
+    transform: translateX(548px);
+    font-weight: 600;
 }
 
 #hero {
@@ -87,7 +92,7 @@ header .container {
     font-size: 50px;
     color: #00f0ff;
     font-weight: bold;
-    padding-bottom: 74px;
+    padding-bottom: 42px;
 }
 
 .sub-title {
