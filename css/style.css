@@ -399,7 +399,7 @@ button {
 
 .col-12 {
     width: 100%;
-    padding: 0 -15px;
+    margin-left: -156px;
 }
 
 .box-pic {
@@ -419,25 +419,25 @@ button {
 
 .col-item {
     display: flex;
+    margin-top: 20px;
 }
 
 .second-item {
-    margin-left: 100px;
+    margin-left: 56px;
 }
 
-.second-title {
-    margin-left: 220px;
+.second-title-item {
+   margin-left: 133px;
     padding-top: 20px;
-    right: 50px;
 }
 
 .second-item-title {
-    margin-left: 550px;
+   margin-left: 181px;
     padding-top: 70px;
 }
 
 .subject {
-    padding: 42px 73px 0;
+    padding: 0 55px 0;
 }
 
 .heading {
@@ -455,6 +455,11 @@ button {
 
 .subject h2 {
     color: #030A6A;
+}
+.box-title{
+    display: flex;
+    margin-top: 36px;
+    margin-left: 220px;
 }
 
 
