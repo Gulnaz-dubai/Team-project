@@ -37,7 +37,49 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
+/*Mobile Menu Start*/
+.mobile-menu {
+    background: rgba(0, 133, 255, 0.76);
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.mobile-menu span {
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    position: relative;
+}
+.mobile-menu span:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    bottom: 10px;
 
+}
+.mobile-menu span:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    top: 10px;
+
+}
+
+/*Mobile Menu End*/
 .logo {
     font-weight: bold;
     font-size: 28px;
