@@ -614,6 +614,7 @@ $duration: 25s;
 .second-cv-item {
     border: 4px solid #FFFFFF;
     border-radius: 15px;
+    padding: 20px;
 }
 
 .second-cv-item ul {
@@ -766,6 +767,7 @@ $duration: 25s;
     line-height: 57px;
     text-align: center;
     color: #00A3FF;
+    margin-bottom: 42px;
 
 }
 
