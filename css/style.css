@@ -442,7 +442,7 @@ button {
     background-size: cover;
     opacity: 0.2;
   }
-}
+
 .glow {
   z-index: -1;
   position: fixed;
