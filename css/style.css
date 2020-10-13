@@ -19,17 +19,6 @@ a {
     text-decoration: none;
 }
 
-.col-4 {
-    width: 33.333%;
-}
-
-
-.row {
-    padding-top: 37px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 header {
     width: 100%;
     position: absolute;
@@ -55,9 +44,9 @@ header .container {
     color: white;
     transition: .6s;
 }
-/*.top-menu-item:hover{*/
-/*    color: #333;*/
-/*}*/
+.top-menu-item:hover{
+    color: #333;
+}
 
 .header-link {
     font-size: 14px;
@@ -69,9 +58,9 @@ header .container {
     font-weight: 600;
     transition: .6s;
 }
-/*.header-link:hover{*/
-/*    color: #333;*/
-/*}*/
+.header-link:hover{
+    color: #333;
+}
 .hero-btn{
     margin-top: 25px;
     transform: translateX(548px);
@@ -581,28 +570,22 @@ $duration: 25s;
 }
 
 .cv-item {
-    width: 294px;
-    height: 198px;
     border: 4px solid #FFFFFF;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 31px;
     margin-bottom: 50px;
     position: relative;
 }
 
 .second-cv-item {
-    width: 294px;
-    height: 310px;
     border: 4px solid #FFFFFF;
     border-radius: 15px;
 }
 
 .second-cv-item ul {
     margin-top: 20px;
-    
 }
 
 .cv-item ul {
@@ -667,10 +650,6 @@ $duration: 25s;
 }
 
 .money {
-<<<<<<< HEAD
-
-=======
->>>>>>> 43d24b1c40c5c56dcae005cdbda52c7821f97827
     text-align: center;
     font-size: 24px;
     padding: 7px 26px;
