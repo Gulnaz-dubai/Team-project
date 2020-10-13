@@ -7,16 +7,24 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
-
+img{
+    max-width: 100%;
+}
 .container {
     max-width: 1170px;
     margin: 0 auto;
 }
+.cv {
+    background: rgba(0, 163, 255, 0.8);
 
+}
 /*hero*/
 a {
     color: white;
     text-decoration: none;
+}
+.d-flex {
+    display: flex;
 }
 
 header {
@@ -105,7 +113,7 @@ header .container {
 }
 
 #hero .row {
-    margin: 0 -55px;
+    margin: 55px -55px;
 }
 
 #hero .col-4 {
@@ -184,7 +192,7 @@ button {
 
 .col-icons {
     position: absolute;
-    top: -38px;
+    top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -252,9 +260,6 @@ button {
     margin-bottom: 91px;
 }
 
-.materials-content {
-    padding-left: 57px;
-}
 
 /* SECTION OUR TEAM */
 
@@ -382,8 +387,8 @@ button {
     height: 100vh;
 }
 
-  
-  &::before {
+
+.particle-network-animation::before {
     z-index: -2;
     content: '';
     position: absolute;
@@ -521,22 +526,19 @@ $duration: 25s;
 /*SECTION ABOUT CV*/
 
 
+
 .col-4 {
     width: 33.3333%;
     padding: 0 5px;
 }
-
-.cv-bg {
-    background: rgba(0, 163, 255, 0.8);
-}
-
 .cv-heading {
     text-align: center;
     padding: 50px 0;
     font-weight: bold;
     font-size: 40px;
     line-height: 57px;
-    color: #00A3FF;
+    color: #fff;
+
 }
 
 .title-box {
@@ -578,7 +580,12 @@ $duration: 25s;
     margin-bottom: 50px;
     position: relative;
 }
-
+.third-item{
+    padding: 39px 0 25px;
+}
+.first-item{
+    padding: 39px 0 25px;
+}
 .second-cv-item {
     border: 4px solid #FFFFFF;
     border-radius: 15px;
@@ -606,7 +613,7 @@ $duration: 25s;
     line-height: 28px;
     color: #FFFFFF;
     text-align: center;
-    padding: 10px 53px;
+    padding: 6px 0;
     position: absolute;
     top: 316px;
 }
@@ -819,7 +826,7 @@ $duration: 25s;
     margin: 27px 50px 0;
 }
 footer{
-    background: #00A3FF;
+    background: #00A3FF url("../images/footer-bg.png");
 
 }
 footer .container{
