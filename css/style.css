@@ -7,7 +7,9 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
-
+img{
+    max-width: 100%;
+}
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -300,9 +302,6 @@ button {
     margin-bottom: 91px;
 }
 
-.materials-content {
-    padding-left: 57px;
-}
 
 /* SECTION OUR TEAM */
 
