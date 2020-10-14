@@ -263,8 +263,6 @@ button {
     text-align: center;
     color: #00A3FF;
     padding-bottom: 86px;
-
-
 }
 
 .title-content {
@@ -284,7 +282,9 @@ button {
     display: flex;
     margin-bottom: 91px;
 }
-
+.col-8{
+    width: 66.6666%;
+}
 
 /* SECTION OUR TEAM */
 
@@ -856,7 +856,12 @@ footer{
     background: #00A3FF url("../images/footer-bg.png");
 
 }
-footer .container{
+/*footer .container{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+.footer-row{
     display: flex;
     justify-content: space-between;
     align-items: center;
