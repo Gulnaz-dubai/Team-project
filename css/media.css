@@ -58,7 +58,7 @@
     }
 
     .content-title {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 500;
     }
 
@@ -86,8 +86,8 @@
 
     /* second-section */
     .difference-bootcamp-title {
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 38px;
+        line-height: 20px;
         padding-bottom: 72px;
     }
     .diff-d-flex{
@@ -97,11 +97,11 @@
         margin: 0 -10px;
     }
     .difference-bootcamp .col-4{
-        width: 40%;
+        width: 100%;
         padding: 0 5px;
     }
     .difference-bootcamp .col-8{
-        width: 60%;
+        width: 100%;
         padding: 0 5px;
     }
     .wrap-wrap {
@@ -158,7 +158,7 @@
     .owner-info-details:before {
         content: "";
         display: block;
-        width: 300px;
+        width: 400px;
         height: 5px;
         left: -9px;
         bottom: 20px;
@@ -191,12 +191,13 @@
     }
 
     .profession-content {
-        font-size: 10px;
+        font-size: 14px;
         padding: 8px 7px 13px;
     }
     /* third-section */
     .difference-bootcamp{
         padding: 0;
+        background: none;
     }
     .materials-box {
         display: flex;
@@ -237,7 +238,7 @@
         padding-top: 22px;
     }
     .caption{
-        font-size: 29px;
+        font-size: 38px;
     }
     .heading{
         font-size: 23px;
@@ -252,7 +253,7 @@
         padding: 30px 0;
     }
     .our-team-title {
-        font-size: 28px;
+        font-size: 38px;
         padding: 0;
 
     }
@@ -265,7 +266,7 @@
 
 
     .cv-heading {
-        font-size: 24px;
+        font-size: 38px;
     }
     .owner-info-det-sam{
         padding-top: 13px;
@@ -285,7 +286,7 @@
         display: none;
     }
     .about-title {
-        font-size: 24px;
+        font-size: 38px;
         line-height: 0;
     }
     .video-lessons{
@@ -294,6 +295,9 @@
     .video-player {
         max-width: 650px;
     }
+    .registration-title{
+        font-size: 38px;
+    }
     .feedbacks .col-6{
         width: 100%;
         display: flex;
@@ -301,7 +305,7 @@
         margin-bottom: 15px;
     }
     .feedback-title {
-        font-size: 24px;
+        font-size: 38px;
     }
     .footer-desc{
         font-size: 10px;
@@ -315,9 +319,109 @@
     .container {
         max-width: 540px;
     }
+    #hero{
+        height: 85vh;
+    }
     .img{
         max-width: 100%;
     }
+    .difference-bootcamp-title{
+        font-size: 28px;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .about-profession{
+        font-size: 24px;
+    }
+    .profession-content{
+        font-size: 18px;
+    }
+    .caption{
+        font-size: 32px;
+    }
+    .text-title{
+        font-size: 18px;
+    }
+    .wrap-wrap{
+        display: block;
+    }
+    .owner-company{
+        width: 524px;
+        height: 300px;
+    }
+    .owner-desc{
+        font-size: 18px;
+        padding: 15px 150px;
+    }
+    .owner-info-details:before{
+        width: 545px;
+    }
+    .wrap-wrap1{
+        display: block;
+        padding-top: 0;
+
+    }
+
+    .owner-company1{
+        width: 524px;
+        height: 300px;
+    }
+    .owner-desc1{
+        font-size: 18px;
+        padding: 15px 150px;
+    }
+    .wrap-wrap1 .owner-information:before {
+        content: "";
+        display: block;
+        width: 545px;
+        top: -55px;
+    }
+    .owner-company1{
+        width: 524px;
+        height: 300px;
+    }
+    .owner-company img {
+        transform: translate(-50%, -50%);
+        padding-top: 125px;
+        width: 228px;
+    }
+    .owner-company1 img {
+        transform: translate(-50%, -50%);
+        padding-top: 125px;
+        width: 228px;
+    }
+    .owner-info {
+        font-size: 25px;
+    }
+    .owner-desc{
+        font-size: 18px;
+        padding: 5px 150px;
+    }
+    .owner-info-details:before{
+        display: none;
+    }
+    .owner-info-det-sam {
+        padding-top: 50px;
+        margin-bottom: 0;
+    }
+    .video-player {
+        max-width: 545px;
+    }
+    .box{
+        width: 540px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .box-text-inputs {
+        width: 433px;
+
+    }
+    .right-side{
+        display: none;
+    }
+
+
 }
 
 
