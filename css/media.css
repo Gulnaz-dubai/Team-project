@@ -1,17 +1,21 @@
 @media (max-width: 992px) {
-    .container{
+    .container {
         max-width: 768px;
     }
-    .top-menu{
+
+    .top-menu {
         display: none;
     }
-    .top-menu-item{
+
+    .top-menu-item {
         padding: 5px;
     }
-    .mobile-menu{
+
+    .mobile-menu {
         display: flex;
     }
-    .top-menu.show{
+
+    .top-menu.show {
         position: fixed;
         background: #0d95e8;
         top: 0;
@@ -23,91 +27,107 @@
         align-items: center;
         flex-direction: column;
     }
-    .top-menu.show .top-menu-item{
+
+    .top-menu.show .top-menu-item {
         margin-right: 0;
     }
-    .header-link{
+
+    .header-link {
         display: none;
     }
-    .title{
+
+    .title {
         font-size: 35px;
     }
-}
-@media(max-width: 425px){
-    .container{
-    max-width: 320px;
-    }
-    .title{
-        font-size: 22px;
-        margin-top: 110px;
-        padding-bottom: 14px;
-    }
-    .sub-title {
-        font-size: 18px;
-        font-weight: 500;
-        padding-bottom: 16px;
-    }
-    .hero-content {
-        padding-top: 2px;
-    }
-    .sub-title-subtitle {
-        font-size: 16px;
-        font-weight: 500;
-    }
-    .content-title{
-        font-size: 12px;
-        font-weight: 500;
-    }
-    .col-4{
-        width: 100%;
-    }
-    #hero .row {
-        margin: 0 112px;
-    }
-    #hero .col-4 {
-        padding: 0 80px;
-    }
-    .content-item {
 
-        margin: 0;
-    }
-    #hero .col-4 {
-        padding: 0px 80px;
-    }
-    .content-item {
-        padding: 6px 10px;
-        border-radius: 12px;
-        margin-bottom: 12px;
-    }
-    .second-content-title {
-        padding: 5px;
-    }
-    .d-flex{
-        display: block;
-    }
+    @media (max-width: 425px) {
+        .container {
+            max-width: 340px;
+        }
+        .top-menu-item{
+            margin-left: 0;
+        }
 
+        .title {
+            font-size: 22px;
+            padding-bottom: 14px;
+        }
+
+        .sub-title {
+            font-size: 18px;
+            font-weight: 500;
+            padding-bottom: 16px;
+        }
+
+
+        .hero-content {
+            padding-top: 100px;
+            height: 62vh;
+        }
+
+        .sub-title-subtitle {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .content-title {
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .col-4 {
+            width: 100%;
+        }
+        .content-item {
+            margin: 0;
+        }
+
+        #hero .row {
+            margin: 0;
+        }
+
+        .content-item {
+            border-radius: 12px;
+            margin-bottom: 12px;
+            width: 100%;
+        }
+
+        .second-content-title {
+            padding: 5px;
+        }
+
+        .d-flex {
+            display: block;
+        }
+        
     /* second-section */
     .difference-bootcamp-title {
         font-size: 24px;
         line-height: 28px;
-        padding-bottom: 48px;
+        padding-bottom: 72px;   
     }
-    .col-3{
+
+    .col-3 {
         width: 100%;
     }
+
     .content-bootcamp {
         padding-top: 28px;
     }
-    .verticalLine{
+
+    .verticalLine {
         display: none;
     }
-    .row-wrap{
+
+    .row-wrap {
         background: none;
     }
-    .profession-item{
+
+    .profession-item {
         background: rgba(0, 163, 255, 0.8);
         margin-bottom: 59px;
     }
+
     .about-profession {
         font-size: 19px;
     }
@@ -115,6 +135,153 @@
     .profession-content {
         font-size: 10px;
         padding: 8px 7px 13px;
+    }
+    /* third-section */
+    .difference-bootcamp{
+        padding: 0;
+    }
+    .materials-box {
+        display: flex;
+        margin-bottom: 34px;
+    }
+    .materials-content{
+        margin-bottom: 40px;
+    }
+    .title-content {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    /* four-section */
+    .box-pic{
+        margin: 0;
+        padding: 0;
+    }
+    .box-pic svg{
+        max-width: 77px;
+    }
+    .col-12{
+        margin-left: 0;
+    }
+    .subject {
+        padding-left: 16px;
+    }
+    .second-item{
+        margin: 0;
+        padding-top: 22px;
+    }
+    .second-title-item{
+        margin: 0;
+        padding-top: 22px;
+    }
+    .box-title{
+        margin: 0;
+        padding: 0;
+        padding-top: 22px;
+    }
+    .caption{
+        font-size: 29px;
+    }
+    .heading{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .heading-item{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    /* five-section */
+    .our-team {
+        padding: 30px 0;
+    }
+    .our-team-title {
+        font-size: 28px;
+        padding: 0;
+        
+    }
+    .wrap-wrap{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrap-wrap1{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .owner-info-details{
+        padding: 0;
+        margin-bottom: 43px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .owner-company {
+        width: 340px;
+    }
+    .owner-company1{
+        width: 340px;
+        margin-bottom: 76px;
+    }
+    .owner-company img {
+        transform: translate(-50%, -50%);
+        padding-top: 125px;
+        width: 228px;
+    }
+    .owner-company1 img {
+        transform: translate(-50%, -50%);
+        padding-top: 125px;
+        width: 228px;
+    }
+    .owner-info {
+        font-size: 25px;
+    }
+    .owner-desc{
+        font-size: 18px;
+    }
+    .owner-info-details:before{
+        display: none;
+    }
+    .wrap-wrap1 .owner-info-details:before{
+        content: "";
+        display: block;
+        width: 340px;
+        height: 15px;
+        left: 0px;
+        bottom: 126px;
+        position: absolute;
+        border-bottom: 4px solid #2D9CDB;
+    }
+    .cv-heading {
+        font-size: 24px;
+    }
+    .owner-info-det-sam{
+        padding-top: 13px;
+        margin-bottom: 0px;
+    }
+    /* six-section */
+    .cv-heading {
+        padding: 50px 0 0px;
+    }
+    .title-box-heading {
+        font-size: 24px;
+    }
+    .developer-icon{
+        display: none;
+    }
+    .money{
+        display: none;
+    }
+    .about-title {
+        font-size: 24px;
+        line-height: 0;
+    }
+    .video-lessons{
+        height: 466px;
+    }
+    .video-player {
+        max-width: 340px;
+    }
+    .feedback-title {
+        font-size: 24px;
     }
 }
 @media(max-width: 320px){

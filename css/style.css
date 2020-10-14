@@ -224,14 +224,6 @@ button {
     top: 117px;
 }
 
-/*.line{*/
-/*    border-left: 2px solid #E5E5E5;*/
-/*}*/
-/*.line:before{*/
-/*    width: 179px;*/
-/*    height: 2px;*/
-/*}*/
-
 .col-icons {
     position: absolute;
     top: 0;
@@ -263,15 +255,6 @@ button {
     background: url("../images/bg5.png") no-repeat center/cover;
 
 }
-
-/*.col-5{*/
-/*    width: 41.6666%;*/
-/*    padding: 0 5px;*/
-/*}*/
-/*.col-7{*/
-/*    width: 58.3333%;*/
-/*    padding: 0 5px;*/
-/*}*/
 
 .difference-bootcamp-title {
     font-weight: bold;
@@ -631,6 +614,7 @@ $duration: 25s;
 .second-cv-item {
     border: 4px solid #FFFFFF;
     border-radius: 15px;
+    padding: 20px;
 }
 
 .second-cv-item ul {
@@ -783,6 +767,7 @@ $duration: 25s;
     line-height: 57px;
     text-align: center;
     color: #00A3FF;
+    margin-bottom: 42px;
 
 }
 
@@ -959,5 +944,4 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     text-decoration: none;
     outline: none;
 }
-
 
