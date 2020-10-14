@@ -853,10 +853,10 @@ $duration: 25s;
     margin: 27px 50px 0;
 }
 footer{
-    background: #00A3FF url("../images/footer-bg.png");
+    background: #00A3FF;
 
 }
-footer .container{
+.footer-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
