@@ -888,6 +888,9 @@
         .difference-bootcamp-title {
             font-size: 15px;
         }
+        .content-item{
+            margin-bottom: 1px;
+        }
 
         .owner-company {
             width: 270px;
