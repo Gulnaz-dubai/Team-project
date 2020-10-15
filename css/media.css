@@ -924,6 +924,9 @@
     .hero-content {
         height: 50vh;
     }
+    .owner-desc {
+        padding: 5px 69px;
+    }
 
     .content-item {
         margin-bottom: 0;
@@ -1026,6 +1029,9 @@
 
     .content-item {
         margin-bottom: 1px;
+    }
+    .owner-desc {
+        padding: 5px 69px;
     }
 
     .hero-content {
