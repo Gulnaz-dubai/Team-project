@@ -1,3 +1,47 @@
+
+@media (max-width: 1170px) {
+    .container{
+        max-width:970px;
+    }
+    .profession-content{
+        font-size: 17px;
+    }
+    #hero .row {
+        margin: 62px -21px;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-8{
+        margin: 0 auto;
+    }
+    .col-12{
+        margin: 0 auto;
+    }
+    #hero .col-4 {
+        padding: 15px 34px;
+    }
+    .difference-bootcamp-title{
+        font-size: 42px;
+    }
+    .verticalLine {
+        margin-left: -121px;
+        top: 135px;
+    }
+    .about-profession{
+        font-size: 19px;
+    }
+    iframe{
+        width: 440px;
+        height: 400px;
+    }
+
+
+}
+
 @media (max-width: 992px) {
     .container {
         max-width: 768px;
@@ -320,7 +364,7 @@
         max-width: 540px;
     }
     #hero{
-        height: 85vh;
+        height: 100vh;
     }
     .img{
         max-width: 100%;
