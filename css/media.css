@@ -117,11 +117,11 @@
     .content-item {
         border-radius: 12px;
         width: 50%;
-        margin: 10px auto;
+        margin: 3px auto;
     }
 
     .second-content-title {
-        padding: 5px;
+        padding: 0;
     }
 
     .d-flex {
@@ -301,14 +301,6 @@
         padding: 0;
 
     }
-    /*.wrap-wrap{*/
-    /*    padding-top: 40px;*/
-    /*    display: flex;*/
-    /*    flex-direction: column;*/
-    /*}*/
-
-
-
     .cv-heading {
         font-size: 38px;
     }
@@ -513,6 +505,7 @@
         }
         .content-item {
             margin: 0;
+
         }
 
         #hero .row {
