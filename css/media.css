@@ -19,14 +19,6 @@
         width: 50%;
     }
 
-    .col-8 {
-        margin: 0 auto;
-    }
-
-    .col-12 {
-        margin: 0 auto;
-    }
-
     #hero .col-4 {
         padding: 15px 34px;
     }
@@ -45,7 +37,7 @@
     }
 
     iframe {
-        width: 440px;
+        width: 545px;
         height: 400px;
     }
 
@@ -67,6 +59,7 @@
 
     .mobile-menu {
         display: flex;
+        z-index: 999;
     }
 
     .top-menu.show {
@@ -80,6 +73,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        z-index: 99;
     }
 
     .top-menu.show .top-menu-item {
@@ -456,7 +450,7 @@
 
     .owner-desc {
         font-size: 18px;
-        padding: 15px 150px;
+
     }
 
     .owner-info-details:before {
@@ -524,6 +518,7 @@
     .video-player {
         max-width: 545px;
     }
+
 
     .box {
         width: 540px;
@@ -600,7 +595,7 @@
     }
 
     .second-content-title {
-        padding: 5px;
+
     }
 
     .d-flex {
