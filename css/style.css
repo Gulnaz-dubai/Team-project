@@ -1012,9 +1012,8 @@ footer {
     background: transparent;
     color: #5e2ced;
 }
-
 .btn_get:hover {
-    color: #fff;
+    color: #ffffff;
     background: #6754e2;
     border-color: #6754e2;
     -webkit-box-shadow: none;
