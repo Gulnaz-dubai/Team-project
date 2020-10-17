@@ -178,7 +178,9 @@ header .container {
 #hero .row {
     margin: 0 55px;
 }
-
+hero_row__content{
+    margin-bottom: 30px;
+}
 #hero .col-4 {
     padding: 0 55px;
 }
@@ -192,7 +194,7 @@ header .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .second-content-title {
@@ -838,7 +840,7 @@ button {
 #contact {
     background: #F9F9F9;
     padding: 25px;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 #contact h3 {
@@ -924,6 +926,37 @@ fieldset {
 
 :-ms-input-placeholder {
     color: #888;
+}
+.section-form{
+    background: aliceblue;
+}
+.form-header{
+    margin: 20px 0;
+}
+.form-container{
+    margin: 20px 0;
+}
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.form-title{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #00a3ff;
+}
+.form-sub{
+    font-size: 28px;
+    margin-bottom: 164px;
+    font-weight: 500;
+    color: #252525;
+}
+.form-desc{
+    font-size: 26px;
+    color: #00a3ff;
+
 }
 
 

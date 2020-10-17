@@ -105,7 +105,7 @@
     }
 
     .content-title {
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 500;
     }
 
@@ -376,8 +376,11 @@
         max-width: 650px;
     }
 
-    .registration-title {
-        font-size: 38px;
+    .form-header{
+        display: none;
+    }
+    .col-6{
+        width: 100%;
     }
 
     .feedbacks .col-6 {
@@ -420,6 +423,15 @@
     .col-3 {
         width: 100%;
     }
+    .col-4{
+        padding: 0 15px;
+    }
+    #hero .col-4 {
+        padding: 3px 34px;
+    }
+    .content-item{
+        margin: 8px auto;
+    }
 
     .about-profession {
         font-size: 24px;
@@ -448,19 +460,14 @@
 
     .owner-desc {
         font-size: 18px;
-
     }
-
     .owner-info-details:before {
         width: 545px;
     }
-
     .wrap-wrap1 {
         display: block;
         padding-top: 0;
-
     }
-
     .owner-company1 {
         width: 524px;
         height: 300px;
@@ -516,8 +523,6 @@
     .video-player {
         max-width: 545px;
     }
-
-
     .box {
         width: 540px;
         height: 400px;
@@ -526,14 +531,17 @@
 
     .box-text-inputs {
         width: 433px;
-
+    }
+    .form-header{
+        display: none;
+    }
+    .col-6{
+        width: 100%;
     }
 
     .right-side {
         display: none;
     }
-
-
 }
 
 
@@ -556,8 +564,6 @@
         font-weight: 500;
         padding-bottom: 16px;
     }
-
-
     .hero-content {
         padding-top: 100px;
         height: 62vh;
@@ -590,10 +596,6 @@
         border-radius: 12px;
         margin-bottom: 1px;
         width: 100%;
-    }
-
-    .second-content-title {
-
     }
 
     .d-flex {
@@ -824,9 +826,8 @@
         height: 240px;
     }
 
-    .registration-title {
-        font-size: 24px;
-        line-height: 0;
+    .form-header{
+        display: none;
     }
 
     .feedbacks {
@@ -1004,6 +1005,12 @@
     .btn {
         transform: translateX(69px);
     }
+    .form-header{
+        display: none;
+    }
+    .col-6{
+        width: 100%;
+    }
 
 }
 
@@ -1078,10 +1085,6 @@
         height: 240px;
     }
 
-    .registration-title {
-        font-size: 20px;
-    }
-
     .box {
         width: 259px;
         height: 431px;
@@ -1097,6 +1100,9 @@
 
     .btn {
         transform: translateX(42px);
+    }
+    .form-header{
+        display: none;
     }
 
 }
